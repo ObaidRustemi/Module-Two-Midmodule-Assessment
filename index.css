@@ -1,0 +1,31 @@
+body {
+   background-color: aqua;
+}
+
+#numOfDiceInput {
+    width: 50px;
+}
+
+#topContainer {
+    border-style: solid;
+    height: 100px;
+    
+}
+
+#bottomContainer {
+    border-style: solid;
+    height: 150px;
+}
+#diceInputSection {
+    padding-bottom: 15px;
+}
+
+#middleSection {
+    padding-top: 15px;
+}
+
+#dice_para {
+    padding-left: 10px;
+    font-size: 40px;
+    
+}

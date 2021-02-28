@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <script defer src="index.js"></script>
+    <title>Dice Roller</title>
+</head>
+<body>
+ <h1>Dice Roller &#9860 &#9857</h1>  
+ <section id="diceInputSection">
+    <form id="diceInputForm">
+        Number of dice:
+        <input id="numOfDiceInput" required type="number" min="0" max="15">
+        <button id="rollDiceButton" type="submit"> Roll the dice!</button>
+    </form>
+ </section> 
+
+ <div id="topContainer">
+     
+    <p id="dice_para"></p>
+    <p id=“sum-para”></p>
+    
+</div>
+<div id="middleSection"></div>
+<div id="bottomContainer">
+<h2>History</h2>
+<ul id="historyUL"></ul>
+
+</div>
+</body>
+</html>
