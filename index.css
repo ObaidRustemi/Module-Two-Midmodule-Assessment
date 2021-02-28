@@ -8,12 +8,12 @@ body {
 
 #topContainer {
     border-style: solid;
-    height: 100px;
+    height: 200px;
     
 }
 
 #bottomContainer {
-    border-style: solid;
+    /* border-style: solid; */
     height: 150px;
 }
 #diceInputSection {
@@ -24,8 +24,16 @@ body {
     padding-top: 15px;
 }
 
-#dice_para {
+#dice-para {
+    
     padding-left: 10px;
     font-size: 40px;
     
+}
+#sum-para {
+  padding-left: 10px; 
+}
+
+h2 {
+    padding-left: 10px;;
 }
