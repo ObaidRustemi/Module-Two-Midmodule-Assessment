@@ -28,6 +28,7 @@ body {
     
     padding-left: 10px;
     font-size: 40px;
+    word-wrap: break-word;
     
 }
 #sum-para {
@@ -36,4 +37,8 @@ body {
 
 h2 {
     padding-left: 10px;;
+}
+
+h1 {
+    font-family: cursive;
 }

@@ -40,7 +40,7 @@ diceInputForm.addEventListener("submit", (e) => {
   sumP.innerHTML = ` Sum = ${diceSum}`
 
   const newRollEntry = document.createElement("li")
-  debugger
+ 
   newRollEntry.innerHTML = `${diceP.innerHTML} = ${sumTemp}`
   historyUL.appendChild(newRollEntry);
 
